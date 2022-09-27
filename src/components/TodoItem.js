@@ -40,7 +40,7 @@ const TodoItem = (props) => {
 
   return (
     <li className={styles.item}>
-      <div className='todo' onDoubleClick={handleEditing} style={viewMode}>
+      <div className="todo" onDoubleClick={handleEditing} style={viewMode}>
         <input
           type="checkbox"
           className={styles.checkbox}

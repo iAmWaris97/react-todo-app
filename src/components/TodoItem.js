@@ -23,8 +23,8 @@ const TodoItem = (props) => {
 
   const completedStyle = {
     fontStyle: 'italic',
-    color: '#595959',
-    opacity: 0.4,
+    color: '#16213E',
+    opacity: 0.8,
     textDecoration: 'line-through',
   };
 
@@ -49,7 +49,7 @@ const TodoItem = (props) => {
           onChange={() => props.handleChangeProps(id)}
         />
         <button type="submit" onClick={() => props.deleteTodoProps(id)}>
-          🗑️
+          Delete
         </button>
         <span style={completed ? completedStyle : null}>{title}</span>
       </div>

@@ -1,7 +1,6 @@
 const Header = () => {
   const headerStyle = {
     padding: '20px 0',
-    lineHeight: '1.5em',
   };
   return (
     <header style={headerStyle}>
@@ -11,11 +10,11 @@ const Header = () => {
           fontWeight: '600',
           marginBottom: '2rem',
           lineHeight: '1em',
-          color: '#ececec',
+          color: '#fff',
           textAlign: 'center',
         }}
       >
-        Todays todo list
+        TODO List
       </h1>
     </header>
   );

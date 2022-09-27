@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { UilPlusCircle } from '@iconscout/react-unicons'
 
 const InputTodo = (props) => {
   const [title, setTitle] = useState('');
@@ -13,7 +14,7 @@ const InputTodo = (props) => {
       props.addTodoProps(title);
       setTitle('');
     } else {
-      alert('Please write item');
+      alert('Please add a TODO');
     }
   };
 
@@ -22,13 +23,13 @@ const InputTodo = (props) => {
       <input
         type="text"
         className="input-text"
-        placeholder="Add todo..."
+        placeholder="Add a TODO..."
         value={title}
         name="title"
         onChange={onChange}
       />
       <button type="submit" className="input-submit">
-        ↵
+        ➕
       </button>
     </form>
   );

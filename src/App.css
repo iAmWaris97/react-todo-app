@@ -5,8 +5,7 @@
 }
 
 body {
-  background:
-    linear-gradient(#dd696f, #62b9d6);
+  background: linear-gradient(#dd696f, #62b9d6);
   margin: 5px;
   padding: 5px;
   color: white;
@@ -83,6 +82,7 @@ body {
   top: 40px;
   z-index: 10;
   cursor: pointer;
+
   /* addition */
   background: transparent;
   border: none;
@@ -159,4 +159,3 @@ a {
 .main__content p {
   line-height: 25px;
 }
-

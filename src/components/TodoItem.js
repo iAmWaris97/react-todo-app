@@ -23,8 +23,7 @@ const TodoItem = (props) => {
 
   const completedStyle = {
     fontStyle: 'italic',
-    color: '#16213E',
-    opacity: 0.8,
+    color: '#293462',
     textDecoration: 'line-through',
   };
 
@@ -41,7 +40,7 @@ const TodoItem = (props) => {
 
   return (
     <li className={styles.item}>
-      <div onDoubleClick={handleEditing} style={viewMode}>
+      <div className='todo' onDoubleClick={handleEditing} style={viewMode}>
         <input
           type="checkbox"
           className={styles.checkbox}

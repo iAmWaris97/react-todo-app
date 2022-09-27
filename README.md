@@ -3,6 +3,8 @@
 > This TODO app is developed following the React tutorials provided by Microverse.
 > The App is to Add, Update, or Remove a TODO in/from the TODO list.
 
+![Project Screenshot](./snapshot.PNG "TODO App")
+
 ## Built With
 
 - **HTML**

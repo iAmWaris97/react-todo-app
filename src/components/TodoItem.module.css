@@ -2,16 +2,19 @@
   font-size: 1.2rem;
   list-style-type: none;
   padding: 17px 0;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #7dc2fa;
+  margin-bottom: 5px;
 }
 
 .checkbox {
   margin-right: 15px;
-  height: 25px;
+  height: 20px;
+  width: 20px;
 }
 
 .item button {
   font-size: 13px;
+  font-weight: 600;
   background: #790252;
   border: none;
   cursor: pointer;

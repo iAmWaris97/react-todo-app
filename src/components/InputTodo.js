@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { UilPlusCircle } from '@iconscout/react-unicons'
 
 const InputTodo = (props) => {
   const [title, setTitle] = useState('');
